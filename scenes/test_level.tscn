@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b060tnax3t7dd"]
 
-[ext_resource type="PackedScene" uid="uid://bcp5pnpb2ix7k" path="res://player/player.tscn" id="1_2venv"]
+[ext_resource type="PackedScene" uid="uid://bcp5pnpb2ix7k" path="res://scenes/player.tscn" id="1_2venv"]
 [ext_resource type="Material" uid="uid://dghyicis1x17y" path="res://assets/prototyping/protoype.tres" id="1_paw1w"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_2venv"]

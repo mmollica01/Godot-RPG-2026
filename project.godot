@@ -21,6 +21,10 @@ boot_splash/bg_color=Color(0.04945533, 0.056357004, 0.07209381, 1)
 boot_splash/image="uid://dou1of8jwdgmq"
 config/icon="res://assets/images/icon.svg"
 
+[autoload]
+
+PlayerStates="*uid://bjef212w2unab"
+
 [display]
 
 window/size/mode=2
