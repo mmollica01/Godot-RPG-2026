@@ -20,9 +20,7 @@ config/features=PackedStringArray("4.6", "Forward Plus")
 boot_splash/bg_color=Color(0.04945533, 0.056357004, 0.07209381, 1)
 boot_splash/stretch_mode=0
 boot_splash/use_filter=false
-boot_splash/image="uid://boadwysaw06pj"
 config/icon="res://assets/images/icon.svg"
-boot_splash/minimum_display_time=3000
 
 [autoload]
 

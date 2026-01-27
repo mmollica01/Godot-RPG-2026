@@ -1,19 +1,19 @@
 [gd_scene format=3 uid="uid://b060tnax3t7dd"]
 
 [ext_resource type="PackedScene" uid="uid://bcp5pnpb2ix7k" path="res://scenes/player.tscn" id="1_2venv"]
+[ext_resource type="Texture2D" uid="uid://cpt8ylqmphgcl" path="res://assets/images/Sky_texture.png" id="1_j6w7d"]
 [ext_resource type="Material" uid="uid://dghyicis1x17y" path="res://assets/prototyping/protoype.tres" id="1_paw1w"]
 
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_2venv"]
-sky_top_color = Color(0.32585266, 0.3763433, 0.7107616, 1)
-sky_horizon_color = Color(0.88434005, 0.7184328, 0.82506865, 1)
-ground_bottom_color = Color(0.15217263, 0.17489976, 0.17321971, 1)
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_x4b8f"]
+panorama = ExtResource("1_j6w7d")
+filter = false
 
-[sub_resource type="Sky" id="Sky_paw1w"]
-sky_material = SubResource("ProceduralSkyMaterial_2venv")
+[sub_resource type="Sky" id="Sky_tmr53"]
+sky_material = SubResource("PanoramaSkyMaterial_x4b8f")
 
 [sub_resource type="Environment" id="Environment_j6w7d"]
 background_mode = 2
-sky = SubResource("Sky_paw1w")
+sky = SubResource("Sky_tmr53")
 glow_enabled = true
 volumetric_fog_enabled = true
 volumetric_fog_density = 0.01
